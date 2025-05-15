@@ -5,3 +5,7 @@ albumentations
 scikit-learn
 ipython
 pycocotools
+albumentations
+cv2
+json
+uuid
