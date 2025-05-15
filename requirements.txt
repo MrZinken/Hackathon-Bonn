@@ -6,6 +6,6 @@ scikit-learn
 ipython
 pycocotools
 albumentations
-cv2
+opencv-python
 json
 uuid
