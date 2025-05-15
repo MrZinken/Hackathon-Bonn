@@ -7,3 +7,4 @@ ipython
 pycocotools
 albumentations
 opencv-python-headless
+tqdm
