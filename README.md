@@ -1,6 +1,10 @@
 # Hackathon-Bonn
 Hackathon der Stadt Bonn zum Thema Verschattung und KI
 
+## Binder neu Aufsetzen
+Dauert einige Minuten
+[Klick](https://mybinder.org/v2/gh/MrZinken/Hackathon-Bonn/HEAD?labpath=jupyter%2FDatensatz.ipynb)
+
 
 ## Lizenz
 
