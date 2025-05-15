@@ -6,4 +6,4 @@ scikit-learn
 ipython
 pycocotools
 albumentations
-opencv-python
+opencv-python-headless
