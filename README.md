@@ -18,6 +18,10 @@ Um die gewählte Klasse an Objekten auf dem Bild annotieren zu können, benötig
 Wichtig! Das annotieren der Bilder muss sorgfältig erfolgen. Es müssen alle Objekte der gewünschten Klasse auf dem Bild annotiert werden, bevor das nächste Bild annotiert wird.
 Sobald die Zeit für das Annotierern abgelaufen ist, wird der Annotationsfile heruntergeladen. Dies ist über "Actions" links oben und anschließend "Export Annotations" möglich. In dem neuen Fenster wählen wir "Single File in COCO JSON Format" aus und downloaden den Annotationsfile mit "Export":
 ![Export](images/makesense_export.PNG) 
+Nun wird der Datensatz aufgearbeitet. Dafür kopieren wir den Annotationsfile in unseren Datensatzordner. Hier müssen nun alle Bilder gelöscht werden, die nicht annotiert wurden. Der Annotationsfile kann mit einem Texteditior geöffnet werden. Darin findet man die Namen der Bilder, die annotiert wurden.  
+Ist der Ordner mit den Annotierten Bildern sauber aufgearbeitet können wir in Jupyter mit der Augmentation fortfahren: [Jupyter](https://hub.gesis.mybinder.org/user/mrzinken-hackathon-bonn-aevnz7mg/doc/tree/jupyter/Datensatz.ipynb)  
+Dort wird der Reiter mit Ordnern links oben geöffnet und unser Datensatzordner mittels Drag and Drop abgelegt:  
+![Upload](images/jupyter_upload.PNG) 
 
 ## Binder neu Aufsetzen
 Dauert einige Minuten
