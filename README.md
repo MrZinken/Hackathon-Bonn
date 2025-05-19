@@ -12,7 +12,12 @@ Gruppe 06 [Klick](https://databox.bonn.de/public/download-shares/k8mSgeYbXo0IeP2
 
 Nach dem Download entpacken und auf Makesense hochladen. Dafür [Makesense.ai](https://www.makesense.ai/) öffnen, rechts unten auf "Get Started" klicken und die Bilder per Drag and Drop hochladen. Nach dem Hochladen "Object Detection" auswählen.  
 Daraufhin wird das Label für die Klasse erstellt mit Klick auf das Plus Symbol, auf die wir uns geeinigt haben Bspw: Baum, Mauer, Haus:  
-![](images/makesense_label.png)
+![Label](images/makesense_label.PNG)  
+Um die gewählte Klasse an Objekten auf dem Bild annotieren zu können, benötigen wir das Polygon-Tool, das rechts unten ausgewählt werden kann. Nun kann das Objekt per Mausklick an den Außenkanten umradnet werden. Sobald das Objekt umrandet wurde, wird das Label ausgewählt:
+![Polygon](images/makesense_polygon.PNG)  
+Wichtig! Das annotieren der Bilder muss sorgfältig erfolgen. Es müssen alle Objekte der gewünschten Klasse auf dem Bild annotiert werden, bevor das nächste Bild annotiert wird.
+Sobald die Zeit für das Annotierern abgelaufen ist, wird der Annotationsfile heruntergeladen. Dies ist über "Actions" links oben und anschließend "Export Annotations" möglich. In dem neuen Fenster wählen wir "Single File in COCO JSON Format" aus und downloaden den Annotationsfile mit "Export":
+![Export](images/makesense_export.PNG) 
 
 ## Binder neu Aufsetzen
 Dauert einige Minuten
