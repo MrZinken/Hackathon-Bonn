@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 # 🔧 Ordnerpfade
-input_folder = "/home/glasenapp/Schreibtisch/"         # Ordner mit .tif-Dateien
+input_folder = "/home/glasenapp/Schreibtisch/input"         # Ordner mit .tif-Dateien
 output_folder = "/home/glasenapp/Schreibtisch/output"   # Zielordner für 500x500 JPGs
 
 tile_size = 500  # Zielgröße der Kacheln
