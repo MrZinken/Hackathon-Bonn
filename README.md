@@ -29,7 +29,7 @@ Sobald die Zeit für das Annotierern abgelaufen ist, wird der Annotationsfile he
 
 
 Nun wird der Datensatz aufgearbeitet. Dafür kopieren wir den Annotationsfile in unseren Datensatzordner. Hier müssen nun alle Bilder gelöscht werden, die nicht annotiert wurden. Der Annotationsfile kann mit einem Texteditior geöffnet werden. Darin findet man die Namen der Bilder, die annotiert wurden. Stell sicher, dass die Annotationsdatei annotations.json heißt und in dem selben Ordner wie die annotierten Bilder liegt. Der Ordner soll "rohdaten_gruppeXX" heißen, wobei XX für eure Gruppennummer steht. Beispiel: rohdaten_gruppe01
-Ist der Ordner mit den Annotierten Bildern sauber aufgearbeitet können wir in Jupyter mit der Augmentation fortfahren: [Jupyter](https://hub.gesis.mybinder.org/user/mrzinken-hackathon-bonn-aevnz7mg/doc/tree/jupyter/Datensatz.ipynb)  
+Ist der Ordner mit den Annotierten Bildern sauber aufgearbeitet können wir in Jupyter mit der Augmentation fortfahren: [Jupyter](https://mybinder.org/v2/gh/MrZinken/Hackathon-Bonn/HEAD?labpath=jupyter%2FDatensatz.ipynb)  
 
 Dort wird der Reiter mit Ordnern links oben geöffnet und unser Datensatzordner mittels Drag and Drop abgelegt:  
 ![Upload](images/jupyter_upload.PNG) 
