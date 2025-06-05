@@ -4,12 +4,74 @@ Hackathon der Stadt Bonn zum Thema Verschattung und KI
 ## Download Datensatz
 Rohdaten Downloadlink:   
 
-Gruppe 01 [Klick](https://databox.bonn.de/public/download-shares/dr8cSb7ya2YRucGC4c6qBQsHu75S5CU0)   
-Gruppe 02 [Klick](https://databox.bonn.de/public/download-shares/u9C2wKErUTTs3QAZ043EHVkSwbfJVK7e)   
-Gruppe 03 [Klick](https://databox.bonn.de/public/download-shares/voPvvwoOX6r0knp9DZGoN4dWva1oeGaC)   
-Gruppe 04 [Klick](https://databox.bonn.de/public/download-shares/YoFK45Xc99zAw1elNJMj9G2vlLeoAMY8)  
-Gruppe 05 [Klick](https://databox.bonn.de/public/download-shares/frEqVE6ppREuyVcM9jRZ7ND4yFMJnHsB)  
-Gruppe 06 [Klick](https://databox.bonn.de/public/download-shares/k8mSgeYbXo0IeP2j8eGYoJknFKPPFzNR)  
+## 📦 Rohdaten Download-Links
+
+> Einfach auf „Klick“ drücken, um den Datensatz der jeweiligen Gruppe als ZIP herunterzuladen.
+
+| Gruppe | Link |
+|--------|------|
+| Gruppe 01 | [Klick]([[https://mrzinken.duckdns.org/s/Gruppe01DownloadLink](https://mrzinken.duckdns.org/s/9Ck9LWp5gBzzfXe)](https://mrzinken.duckdns.org/s/9Ck9LWp5gBzzfXe)) |
+| Gruppe 02 | [Klick](https://mrzinken.duckdns.org/s/G02) |
+| Gruppe 03 | [Klick](https://mrzinken.duckdns.org/s/G03) |
+| Gruppe 04 | [Klick](https://mrzinken.duckdns.org/s/G04) |
+| Gruppe 05 | [Klick](https://mrzinken.duckdns.org/s/G05) |
+| Gruppe 06 | [Klick](https://mrzinken.duckdns.org/s/G06) |
+| Gruppe 07 | [Klick](https://mrzinken.duckdns.org/s/G07) |
+| Gruppe 08 | [Klick](https://mrzinken.duckdns.org/s/G08) |
+| Gruppe 09 | [Klick](https://mrzinken.duckdns.org/s/G09) |
+| Gruppe 10 | [Klick](https://mrzinken.duckdns.org/s/G10) |
+| Gruppe 11 | [Klick](https://mrzinken.duckdns.org/s/G11) |
+| Gruppe 12 | [Klick](https://mrzinken.duckdns.org/s/G12) |
+| Gruppe 13 | [Klick](https://mrzinken.duckdns.org/s/G13) |
+| Gruppe 14 | [Klick](https://mrzinken.duckdns.org/s/G14) |
+| Gruppe 15 | [Klick](https://mrzinken.duckdns.org/s/G15) |
+| Gruppe 16 | [Klick](https://mrzinken.duckdns.org/s/G16) |
+| Gruppe 17 | [Klick](https://mrzinken.duckdns.org/s/G17) |
+| Gruppe 18 | [Klick](https://mrzinken.duckdns.org/s/G18) |
+| Gruppe 19 | [Klick](https://mrzinken.duckdns.org/s/G19) |
+| Gruppe 20 | [Klick](https://mrzinken.duckdns.org/s/G20) |
+| Gruppe 21 | [Klick](https://mrzinken.duckdns.org/s/G21) |
+| Gruppe 22 | [Klick](https://mrzinken.duckdns.org/s/G22) |
+| Gruppe 23 | [Klick](https://mrzinken.duckdns.org/s/G23) |
+| Gruppe 24 | [Klick](https://mrzinken.duckdns.org/s/G24) |
+| Gruppe 25 | [Klick](https://mrzinken.duckdns.org/s/G25) |
+| Gruppe 26 | [Klick](https://mrzinken.duckdns.org/s/G26) |
+| Gruppe 27 | [Klick](https://mrzinken.duckdns.org/s/G27) |
+| Gruppe 28 | [Klick](https://mrzinken.duckdns.org/s/G28) |
+| Gruppe 29 | [Klick](https://mrzinken.duckdns.org/s/G29) |
+| Gruppe 30 | [Klick](https://mrzinken.duckdns.org/s/G30) |
+| Gruppe 31 | [Klick](https://mrzinken.duckdns.org/s/G31) |
+| Gruppe 32 | [Klick](https://mrzinken.duckdns.org/s/G32) |
+| Gruppe 33 | [Klick](https://mrzinken.duckdns.org/s/G33) |
+| Gruppe 34 | [Klick](https://mrzinken.duckdns.org/s/G34) |
+| Gruppe 35 | [Klick](https://mrzinken.duckdns.org/s/G35) |
+| Gruppe 36 | [Klick](https://mrzinken.duckdns.org/s/G36) |
+| Gruppe 37 | [Klick](https://mrzinken.duckdns.org/s/G37) |
+| Gruppe 38 | [Klick](https://mrzinken.duckdns.org/s/G38) |
+| Gruppe 39 | [Klick](https://mrzinken.duckdns.org/s/G39) |
+| Gruppe 40 | [Klick](https://mrzinken.duckdns.org/s/G40) |
+| Gruppe 41 | [Klick](https://mrzinken.duckdns.org/s/G41) |
+| Gruppe 42 | [Klick](https://mrzinken.duckdns.org/s/G42) |
+| Gruppe 43 | [Klick](https://mrzinken.duckdns.org/s/G43) |
+| Gruppe 44 | [Klick](https://mrzinken.duckdns.org/s/G44) |
+| Gruppe 45 | [Klick](https://mrzinken.duckdns.org/s/G45) |
+| Gruppe 46 | [Klick](https://mrzinken.duckdns.org/s/G46) |
+| Gruppe 47 | [Klick](https://mrzinken.duckdns.org/s/G47) |
+| Gruppe 48 | [Klick](https://mrzinken.duckdns.org/s/G48) |
+| Gruppe 49 | [Klick](https://mrzinken.duckdns.org/s/G49) |
+| Gruppe 50 | [Klick](https://mrzinken.duckdns.org/s/G50) |
+| Gruppe 51 | [Klick](https://mrzinken.duckdns.org/s/G51) |
+| Gruppe 52 | [Klick](https://mrzinken.duckdns.org/s/G52) |
+| Gruppe 53 | [Klick](https://mrzinken.duckdns.org/s/G53) |
+| Gruppe 54 | [Klick](https://mrzinken.duckdns.org/s/G54) |
+| Gruppe 55 | [Klick](https://mrzinken.duckdns.org/s/G55) |
+| Gruppe 56 | [Klick](https://mrzinken.duckdns.org/s/G56) |
+| Gruppe 57 | [Klick](https://mrzinken.duckdns.org/s/G57) |
+| Gruppe 58 | [Klick](https://mrzinken.duckdns.org/s/G58) |
+| Gruppe 59 | [Klick](https://mrzinken.duckdns.org/s/G59) |
+| Gruppe 60 | [Klick](https://mrzinken.duckdns.org/s/G60) |
+
+
 
 Nach dem Download entpacken und auf Makesense hochladen. Dafür [Makesense.ai](https://www.makesense.ai/) öffnen, rechts unten auf "Get Started" klicken und die Bilder per Drag and Drop hochladen. Nach dem Hochladen "Object Detection" auswählen.  
 Daraufhin wird das Label für die Klasse erstellt mit Klick auf das Plus Symbol, auf die wir uns geeinigt haben Bspw: Baum, Mauer, Haus:  
