@@ -10,7 +10,7 @@ Rohdaten Downloadlink:
 
 | Gruppe | Link |
 |--------|------|
-| Gruppe 01 | [Klick](https://mrzinken.duckdns.org/s/9Ck9LWp5gBzzfXe) |
+| Gruppe 01 | [Klick](https://mrzinken.duckdns.org/s/9Ck9LWp5gBzzfXe/download) |
 | Gruppe 02 | [Klick](https://mrzinken.duckdns.org/s/G02) |
 | Gruppe 03 | [Klick](https://mrzinken.duckdns.org/s/G03) |
 | Gruppe 04 | [Klick](https://mrzinken.duckdns.org/s/G04) |
