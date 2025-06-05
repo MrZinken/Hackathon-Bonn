@@ -8,3 +8,4 @@ pycocotools
 albumentations
 opencv-python-headless
 tqdm
+webdavclient3
