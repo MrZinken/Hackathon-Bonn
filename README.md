@@ -1,14 +1,9 @@
 # Hackathon-Bonn
 Hackathon der Stadt Bonn zum Thema Verschattung und KI
 
-## Download Datensatz
-Rohdaten Downloadlink:   
-
 ## 📦 Rohdaten Download-Links
 
 > Einfach auf „Klick“ drücken, um den Datensatz der jeweiligen Gruppe als ZIP herunterzuladen.
-
-## 📦 Rohdaten Download-Links
 
 | Gruppe    | Link |
 |-----------|------|
