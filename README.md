@@ -7,7 +7,7 @@ Hackathon der Stadt Bonn zum Thema Verschattung und KI
 
 | Gruppe    | Link |
 |-----------|------|
-| Gruppe 01 | [Klick](https://mrzinken.duckdns.org/s/9Ck9LWp5gBzzfXe) |
+| Gruppe 01 | [Klick](https://mrzinken.duckdns.org/s/sQE5Y7YL4tzmbZB) |
 | Gruppe 02 | [Klick](https://mrzinken.duckdns.org/s/zDrbXSzWgKfaZKT) |
 | Gruppe 03 | [Klick](https://mrzinken.duckdns.org/s/EWBa4pjqQscsQC5) |
 | Gruppe 04 | [Klick](https://mrzinken.duckdns.org/s/dTkfwo4S9yBNdi7) |
