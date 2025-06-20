@@ -69,7 +69,7 @@ Hackathon der Stadt Bonn zum Thema Verschattung und KI
 | Gruppe 60 | [Klick](https://mrzinken.duckdns.org/s/W3DF2FSEgtm5XRY) |
 
 
-
+## Annotation der Rohdaten
 Nach dem Download entpacken und auf Makesense hochladen. Dafür [Makesense.ai](https://www.makesense.ai/) öffnen, rechts unten auf "Get Started" klicken und die Bilder per Drag and Drop hochladen. Nach dem Hochladen "Object Detection" auswählen.  
 Daraufhin wird das Label für die Klasse erstellt mit Klick auf das Plus Symbol, auf die wir uns geeinigt haben Bspw: Baum, Mauer, Haus:  
 
@@ -93,9 +93,10 @@ Ist der Ordner mit den Annotierten Bildern sauber aufgearbeitet können wir in J
 Dort wird der Reiter mit Ordnern links oben geöffnet und unser Datensatzordner mittels Drag and Drop abgelegt:  
 ![Upload](images/jupyter_upload.PNG) 
 
-## Binder neu Aufsetzen
+## Binder Aufsetzen
 Dauert einige Augenblicke
 [Binder](https://mybinder.org/v2/gh/MrZinken/Hackathon-Bonn/HEAD?labpath=jupyter%2FDatensatz.ipynb)
+Falls die Verbindung zum Notebook unterbrochen wird, muss Binder neu aufgesetzt werden. Dies kann bei längerer Inaktivität passieren. Beachte, dass alle Änderungen damit rückgängig gemacht wurden.
 
 
 ## Geojson
