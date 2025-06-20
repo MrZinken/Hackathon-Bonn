@@ -3,7 +3,6 @@ import shutil
 import random
 from tqdm import tqdm
 from pycocotools.coco import COCO
-from PIL import Image
 import numpy as np
 
 # === 📂 Eingabe-Ordner
@@ -88,17 +87,13 @@ with open(dataset_yaml_path, "w") as f:
     f.write(f"""\
 train: {os.path.abspath(output_dir)}/train/images
 val: {os.path.abspath(output_dir)}/valid/images
-test: {os.path.abspath(output_dir)}/test/images
 
-nc: 3
-names: ['pv', 'st', 'ued']
+nc: 1
+names: ['klasse']
 
 roboflow:
   workspace: soloyolo
-  project: solarsegmentation-zs1vs
-  version: 15
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/soloyolo/solarsegmentation-zs1vs/dataset/15
+  project: shadow-segmentation
 """)
 
 print("\n✅ YOLOv8-Datensatz ist bereit!")
