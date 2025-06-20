@@ -3,6 +3,7 @@ import shutil
 import random
 from tqdm import tqdm
 from pycocotools.coco import COCO
+from PIL import Image
 import numpy as np
 
 # === 📂 Eingabe-Ordner
@@ -88,12 +89,9 @@ with open(dataset_yaml_path, "w") as f:
 train: {os.path.abspath(output_dir)}/train/images
 val: {os.path.abspath(output_dir)}/valid/images
 
-nc: 1
-names: ['klasse']
 
-roboflow:
-  workspace: soloyolo
-  project: shadow-segmentation
+nc: 0
+names: ['klasse']
 """)
 
 print("\n✅ YOLOv8-Datensatz ist bereit!")
