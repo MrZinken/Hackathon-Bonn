@@ -94,8 +94,68 @@ Dort wird der Reiter mit Ordnern links oben geöffnet und unser Datensatzordner 
 ![Upload](images/jupyter_upload.PNG) 
 
 ## Binder neu Aufsetzen
-Dauert einige Minuten
-[Klick](https://mybinder.org/v2/gh/MrZinken/Hackathon-Bonn/HEAD?labpath=jupyter%2FDatensatz.ipynb)
+Dauert einige Augenblicke
+[Binder](https://mybinder.org/v2/gh/MrZinken/Hackathon-Bonn/HEAD?labpath=jupyter%2FDatensatz.ipynb)
+
+
+## Geojson
+Nachdem das neuronale Netzt trainiert wurde und das fertige Model auf die Luftbilder der Stadt Bonn angewandt wurden, kann hier der georeferenzierte Layer heruntergeladen werde:
+[GeoJSON](https://mrzinken.duckdns.org/s/kfSnTWEat7Ym3H8)
+
+## 🌍 Visualisierung der Ergebnisse als GeoJSON
+
+Durch das neuronale Netz wurde eine Datei erzeugt, die zeigt, wo die festgelegte Klasse detektiert wurde.
+
+Eine Möglichkeit, die Ergebnisse zu visualisieren, ist die Erstellung einer [GeoJSON](https://de.wikipedia.org/wiki/GeoJSON)-Datei.  
+Dabei handelt es sich um eine JSON-Datei mit Raumbezug.  
+Mit geeigneter Software – wie dem Geoinformationssystem [QGIS](https://qgis.org/) – lassen sich diese Dateien betrachten, analysieren und mit anderen (räumlichen) Daten verschneiden.
+
+---
+
+## 🗺️ Visualisierung in der Bonner Urban Data Plattform (UDP)
+
+Um den erzeugten Layer direkt auf den verwendeten Luftbildern anzusehen,  
+könnt ihr die GeoJSON-Datei in der [Bonner Urban Data Plattform](https://geoportal.udp.bonn.de/portal/master/index.html) öffnen.
+
+Dazu wählt ihr **Datei-Import** aus und zieht die Datei per Drag-and-Drop oder per Upload auf die Plattform.
+
+![Screen1](images/screen1.png)  
+![Screen2](images/screen2.png)
+
+Nun könnt ihr verschiedene Hintergrundkarten auswählen – unter anderem auch das Luftbild **"Luftbild 2024"**,  
+auf dessen Basis die Daten erzeugt wurden.
+
+![Screen3](images/screen3.png)
+
+---
+
+## 🧠 Reflexion
+
+Schaut euch die Ergebnisse gerne an:
+
+- Was hat gut geklappt?
+- Was schlecht?
+- Wie könnte man die Ergebnisse nutzen, um für mehr Schatten in der Stadt zu sorgen?
+
+---
+
+## ➕ Weitere Daten hinzufügen
+
+Ladet euch gerne weitere Datensätze der UDP hinzu über den Button **„Themen hinzufügen“**.
+
+---
+
+## 🌐 Externe Kartendienste (WMS)
+
+Es ist auch möglich, externe Kartendienste hinzuzufügen.  
+Diese nennt man [Web Map Services (WMS)](https://de.wikipedia.org/wiki/Web_Map_Service).
+
+Zwei interessante Dienste:
+
+### 🧱 Bodenversiegelung in NRW
+
+- Infos: [LANUV NRW](https://www.lanuk.nrw.de/themen/boden/bodenschutz-beim-planen-und-bauen/bodenversiegelung)  
+- WMS-Link:  
 
 
 ## Lizenz
