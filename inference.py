@@ -6,10 +6,8 @@ from rasterio.windows import Window
 import numpy as np
 from shapely.geometry import Polygon, mapping
 from shapely.ops import transform
-from pyproj import Transformer
 from ultralytics import YOLO
 from PIL import Image
-import torch
 import json
 import cv2
 
