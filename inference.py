@@ -12,8 +12,8 @@ import json
 import cv2
 
 # ⚙️ Pfade
-image_dir = "/home/kai/Documents/10-1_TrueOrthophoto_RGBI_TIF_250x250m_10cm"
-model_path = "/home/kai/.local/lib/python3.10/site-packages/ultralytics/runs/segment/train/weights/best.pt"
+image_dir = "/home/kai/Desktop/luftbilder"
+model_path = "/home/kai/Documents/Hackathon-Bonn/runs/segment/shadowsegmentation/weights/best.pt"
 tile_size = 500
 confidence_threshold = 0.25
 mask_dir = os.path.join(image_dir, "masks")

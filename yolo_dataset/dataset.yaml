@@ -1,5 +1,13 @@
-train: /home/kai/Documents/Hackathon-Bonn/yolo_dataset/images/train
-val: /home/kai/Documents/Hackathon-Bonn/yolo_dataset/images/val
+train: /home/kai/Documents/Hackathon-Bonn/yolo_dataset/train/images
+val: /home/kai/Documents/Hackathon-Bonn/yolo_dataset/valid/images
+test: /home/kai/Documents/Hackathon-Bonn/yolo_dataset/test/images
 
-nc: 1
-names: ["klasse"]
+nc: 3
+names: ['pv', 'st', 'ued']
+
+roboflow:
+  workspace: soloyolo
+  project: solarsegmentation-zs1vs
+  version: 15
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/soloyolo/solarsegmentation-zs1vs/dataset/15
