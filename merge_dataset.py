@@ -30,7 +30,6 @@ for gruppe in os.listdir(gruppen_root):
         print(f"⚠️ Kein annotierte_daten-Ordner in {gruppe}")
         continue
 
-    # JSON-Datei finden
     json_files = [f for f in os.listdir(annot_dir) if f.endswith(".json")]
     if not json_files:
         print(f"⚠️ Keine annotations.json in {annot_dir}")
@@ -48,7 +47,7 @@ for gruppe in os.listdir(gruppen_root):
         anns = coco.loadAnns(ann_ids)
         all_images.append((file_path, anns, img["width"], img["height"]))
 
-# === 🔀 Shuffle und split
+# === 🔀 Shuffle und Split
 random.shuffle(all_images)
 split_idx = int(0.7 * len(all_images))
 train_data = all_images[:split_idx]
@@ -66,16 +65,16 @@ def save_yolo_format(img_path, anns, width, height, split):
             if "segmentation" not in ann or not isinstance(ann["segmentation"], list):
                 continue
             for seg in ann["segmentation"]:
-                pts = np.array(seg).reshape(-1, 2)
+                pts = np.array(seg, dtype=np.float32).reshape(-1, 2)
                 if len(pts) < 3:
                     continue
                 pts[:, 0] /= width
                 pts[:, 1] /= height
                 pts = pts.flatten()
                 pts_str = " ".join([f"{x:.6f}" for x in pts])
-                f.write(f"{ann['category_id']} {pts_str}\n")
+                f.write(f"0 {pts_str}\n")  # 👈 immer Klasse 0
 
-# === 📁 Bilder und Labels speichern
+# === 📁 Bilder & Labels speichern
 for img_path, anns, w, h in tqdm(train_data, desc="📁 Train speichern"):
     save_yolo_format(img_path, anns, w, h, "train")
 
@@ -89,11 +88,10 @@ with open(dataset_yaml_path, "w") as f:
 train: {os.path.abspath(output_dir)}/train/images
 val: {os.path.abspath(output_dir)}/valid/images
 
-
-nc: 0
+nc: 1
 names: ['klasse']
 """)
 
-print("\n✅ YOLOv8-Datensatz ist bereit!")
+print("\n✅ YOLOv8-Datensatz (mit genau einer Klasse) ist bereit!")
 print(f"📊 Train: {len(train_data)} | Val: {len(val_data)}")
 print(f"📄 dataset.yaml gespeichert unter: {dataset_yaml_path}")
