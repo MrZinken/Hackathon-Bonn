@@ -69,7 +69,7 @@ Hackathon der Stadt Bonn zum Thema Verschattung und KI
 | Gruppe 60 | [Klick](https://mrzinken.duckdns.org/s/W3DF2FSEgtm5XRY) |
 
 
-
+## Annotation der Rohdaten
 Nach dem Download entpacken und auf Makesense hochladen. Dafür [Makesense.ai](https://www.makesense.ai/) öffnen, rechts unten auf "Get Started" klicken und die Bilder per Drag and Drop hochladen. Nach dem Hochladen "Object Detection" auswählen.  
 Daraufhin wird das Label für die Klasse erstellt mit Klick auf das Plus Symbol, auf die wir uns geeinigt haben Bspw: Baum, Mauer, Haus:  
 
@@ -86,16 +86,76 @@ Sobald die Zeit für das Annotierern abgelaufen ist, wird der Annotationsfile he
 
 ![Export](images/makesense_export.PNG) 
 
+## Aufarbeiten des Datensatzes
 
-Nun wird der Datensatz aufgearbeitet. Dafür kopieren wir den Annotationsfile in unseren Datensatzordner. Hier müssen nun alle Bilder gelöscht werden, die nicht annotiert wurden. Der Annotationsfile kann mit einem Texteditior geöffnet werden. Darin findet man die Namen der Bilder, die annotiert wurden. Stell sicher, dass die Annotationsdatei annotations.json heißt und in dem selben Ordner wie die annotierten Bilder liegt. Der Ordner soll "rohdaten_gruppeXX" heißen, wobei XX für eure Gruppennummer steht. Beispiel: rohdaten_gruppe01
+Nun wird der Datensatz aufgearbeitet. Dafür kopieren wir den Annotationsfile in einen neuen Ordner, den wir "datensatz" nennen. Hier müssen nun alle Bilder hineinkopiert werden, die annotiert wurden. Der Annotationsfile kann mit einem Texteditior geöffnet werden. Darin findet man die Namen der Bilder, die annotiert wurden. Stell sicher, dass die Annotationsdatei annotations.json heißt und in dem selben Ordner wie die annotierten Bilder liegt.
+
+
+## Binder öffnen und Datensatz hochladen
 Ist der Ordner mit den Annotierten Bildern sauber aufgearbeitet können wir in Jupyter mit der Augmentation fortfahren: [Jupyter](https://mybinder.org/v2/gh/MrZinken/Hackathon-Bonn/HEAD?labpath=jupyter%2FDatensatz.ipynb)  
-
 Dort wird der Reiter mit Ordnern links oben geöffnet und unser Datensatzordner mittels Drag and Drop abgelegt:  
 ![Upload](images/jupyter_upload.PNG) 
+Falls die Verbindung zum Notebook unterbrochen wird, muss Binder neu aufgesetzt werden. Dies kann bei längerer Inaktivität passieren. Beachte, dass alle Änderungen damit rückgängig gemacht wurden.
 
-## Binder neu Aufsetzen
-Dauert einige Minuten
-[Klick](https://mybinder.org/v2/gh/MrZinken/Hackathon-Bonn/HEAD?labpath=jupyter%2FDatensatz.ipynb)
+
+## Geojson
+Nachdem das neuronale Netzt trainiert wurde und das fertige Model auf die Luftbilder der Stadt Bonn angewandt wurden, kann hier der georeferenzierte Layer heruntergeladen werde:
+[GeoJSON](https://mrzinken.duckdns.org/s/kfSnTWEat7Ym3H8)
+
+## 🌍 Visualisierung der Ergebnisse als GeoJSON
+
+Durch das neuronale Netz wurde eine Datei erzeugt, die zeigt, wo die festgelegte Klasse detektiert wurde.
+
+Eine Möglichkeit, die Ergebnisse zu visualisieren, ist die Erstellung einer [GeoJSON](https://de.wikipedia.org/wiki/GeoJSON)-Datei.  
+Dabei handelt es sich um eine JSON-Datei mit Raumbezug.  
+Mit geeigneter Software – wie dem Geoinformationssystem [QGIS](https://qgis.org/) – lassen sich diese Dateien betrachten, analysieren und mit anderen (räumlichen) Daten verschneiden.
+
+---
+
+## 🗺️ Visualisierung in der Bonner Urban Data Plattform (UDP)
+
+Um den erzeugten Layer direkt auf den verwendeten Luftbildern anzusehen,  
+könnt ihr die GeoJSON-Datei in der [Bonner Urban Data Plattform](https://geoportal.udp.bonn.de/portal/master/index.html) öffnen.
+
+Dazu wählt ihr **Datei-Import** aus und zieht die Datei per Drag-and-Drop oder per Upload auf die Plattform.
+
+![Screen1](images/screen1.png)  
+![Screen2](images/screen2.png)
+
+Nun könnt ihr verschiedene Hintergrundkarten auswählen – unter anderem auch das Luftbild **"Luftbild 2024"**,  
+auf dessen Basis die Daten erzeugt wurden.
+
+![Screen3](images/screen3.png)
+
+---
+
+## 🧠 Reflexion
+
+Schaut euch die Ergebnisse gerne an:
+
+- Was hat gut geklappt?
+- Was schlecht?
+- Wie könnte man die Ergebnisse nutzen, um für mehr Schatten in der Stadt zu sorgen?
+
+---
+
+## ➕ Weitere Daten hinzufügen
+
+Ladet euch gerne weitere Datensätze der UDP hinzu über den Button **„Themen hinzufügen“**.
+
+---
+
+## 🌐 Externe Kartendienste (WMS)
+
+Es ist auch möglich, externe Kartendienste hinzuzufügen.  
+Diese nennt man [Web Map Services (WMS)](https://de.wikipedia.org/wiki/Web_Map_Service).
+
+Zwei interessante Dienste:
+
+### 🧱 Bodenversiegelung in NRW
+
+- Infos: [LANUV NRW](https://www.lanuk.nrw.de/themen/boden/bodenschutz-beim-planen-und-bauen/bodenversiegelung)  
+- WMS-Link:  
 
 
 ## Lizenz
