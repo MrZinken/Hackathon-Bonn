@@ -86,16 +86,15 @@ Sobald die Zeit für das Annotierern abgelaufen ist, wird der Annotationsfile he
 
 ![Export](images/makesense_export.PNG) 
 
+## Aufarbeiten des Datensatzes
 
-Nun wird der Datensatz aufgearbeitet. Dafür kopieren wir den Annotationsfile in unseren Datensatzordner. Hier müssen nun alle Bilder gelöscht werden, die nicht annotiert wurden. Der Annotationsfile kann mit einem Texteditior geöffnet werden. Darin findet man die Namen der Bilder, die annotiert wurden. Stell sicher, dass die Annotationsdatei annotations.json heißt und in dem selben Ordner wie die annotierten Bilder liegt. Der Ordner soll "rohdaten_gruppeXX" heißen, wobei XX für eure Gruppennummer steht. Beispiel: rohdaten_gruppe01
+Nun wird der Datensatz aufgearbeitet. Dafür kopieren wir den Annotationsfile in einen neuen Ordner, den wir "datensatz" nennen. Hier müssen nun alle Bilder hineinkopiert werden, die annotiert wurden. Der Annotationsfile kann mit einem Texteditior geöffnet werden. Darin findet man die Namen der Bilder, die annotiert wurden. Stell sicher, dass die Annotationsdatei annotations.json heißt und in dem selben Ordner wie die annotierten Bilder liegt.
+
+
+## Binder öffnen und Datensatz hochladen
 Ist der Ordner mit den Annotierten Bildern sauber aufgearbeitet können wir in Jupyter mit der Augmentation fortfahren: [Jupyter](https://mybinder.org/v2/gh/MrZinken/Hackathon-Bonn/HEAD?labpath=jupyter%2FDatensatz.ipynb)  
-
 Dort wird der Reiter mit Ordnern links oben geöffnet und unser Datensatzordner mittels Drag and Drop abgelegt:  
 ![Upload](images/jupyter_upload.PNG) 
-
-## Binder Aufsetzen
-Dauert einige Augenblicke
-[Binder](https://mybinder.org/v2/gh/MrZinken/Hackathon-Bonn/HEAD?labpath=jupyter%2FDatensatz.ipynb)
 Falls die Verbindung zum Notebook unterbrochen wird, muss Binder neu aufgesetzt werden. Dies kann bei längerer Inaktivität passieren. Beachte, dass alle Änderungen damit rückgängig gemacht wurden.
 
 
