@@ -174,15 +174,15 @@ https://www.wms.nrw.de/wms/bodenversiegelung_luftbildbasiert
 2. Klickt auf **„Layer laden“**.
 
 📸 Beispiel-Screenshots:  
-![Screen4](media/Screen4.png)  
-![Screen5](media/Screen5.png)
+![Screen4](images/Screen4.png)  
+![Screen5](images/Screen5.png)
 
 3. Über **„Thema hinzufügen“** könnt ihr euch die WMS anzeigen lassen.
 
 📸 Weitere Screenshots:  
-![Screen6](media/Screen6.png)  
-![Screen7](media/Screen7.png)  
-![Screen8](media/Screen8.png)
+![Screen6](images/Screen6.png)  
+![Screen7](images/Screen7.png)  
+![Screen8](images/Screen8.png)
 
 4. Manchmal muss man sich etwas durch den **Themenbaum** klicken, da ein WMS auch mehrere Layer enthalten kann.
 
@@ -193,7 +193,7 @@ https://www.wms.nrw.de/wms/bodenversiegelung_luftbildbasiert
 Probiert auch die **Werkzeugleiste** auf der linken Seite aus.
 
 📸 Screenshot:  
-![Screen9](media/Screen9.png)
+![Screen9](images/Screen9.png)
 
 ---
 
