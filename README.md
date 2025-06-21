@@ -159,52 +159,11 @@ Link zum Einbinden:
 https://www.wms.nrw.de/wms/bodenversiegelung_luftbildbasiert
 
 
-Landbedeckung in NRW
-Informationen:
-https://www.bezreg-koeln.nrw.de/geobasis-nrw/produkte-und-dienste/luftbild-und-satellitenbildinformationen/aktuelle-luftbild-und-3
-Link zum Einbinden:
-https://www.wms.nrw.de/geobasis/wms_nw_landbedeckung
-
-
-Kopiert den Link in das Fenster und drückt auf Layer laden.
-[Screen4] [Screen5]
-
-Über Thema hinzufügen könnt ihr euch die WMS anzeigen lassen.
-
-[Screen6][Screen7][Screen8]
-
-Manchmal muss man sich etwas durch den Themenbaum klicken, da ein WMS auch mehrere Layer liefern kann.
-
-Probiert es gerne aus und kommt bei Fragen auf uns zu.
-
-Probiert auch die Werkzeugleiste auf der linken Seite aus.
-
-[Screen9]
-
-kannst du das in markdown umwandeln für github?
-
-
-ChatGPT said:
-Klar bro, hier ist dein Text in sauberem Markdown-Format für GitHub:
-
-markdown
-Copy
-Edit
-# 🌍 Landbedeckung & Bodenversiegelung in NRW (WMS)
-
-## 🔗 Einbindbare WMS-Links
-
-### 🧱 Bodenversiegelung (luftbildbasiert)
-**Link zum Einbinden:**
-[https://www.wms.nrw.de/wms/bodenversiegelung_luftbildbasiert](https://www.wms.nrw.de/wms/bodenversiegelung_luftbildbasiert)
-
----
-
 ### 🗺️ Landbedeckung in NRW
-**Informationen:**
+**Informationen:**  
 [https://www.bezreg-koeln.nrw.de/geobasis-nrw/produkte-und-dienste/luftbild-und-satellitenbildinformationen/aktuelle-luftbild-und-3](https://www.bezreg-koeln.nrw.de/geobasis-nrw/produkte-und-dienste/luftbild-und-satellitenbildinformationen/aktuelle-luftbild-und-3)
 
-**Link zum Einbinden:**
+**Link zum Einbinden:**  
 [https://www.wms.nrw.de/geobasis/wms_nw_landbedeckung](https://www.wms.nrw.de/geobasis/wms_nw_landbedeckung)
 
 ---
@@ -215,15 +174,15 @@ Edit
 2. Klickt auf **„Layer laden“**.
 
 📸 Beispiel-Screenshots:  
-![Screen4](./Screen4)  
-![Screen5](./Screen5)
+![Screen4](media/Screen4.png)  
+![Screen5](media/Screen5.png)
 
 3. Über **„Thema hinzufügen“** könnt ihr euch die WMS anzeigen lassen.
 
 📸 Weitere Screenshots:  
-![Screen6](./Screen6)  
-![Screen7](./Screen7)  
-![Screen8](./Screen8)
+![Screen6](media/Screen6.png)  
+![Screen7](media/Screen7.png)  
+![Screen8](media/Screen8.png)
 
 4. Manchmal muss man sich etwas durch den **Themenbaum** klicken, da ein WMS auch mehrere Layer enthalten kann.
 
@@ -234,19 +193,11 @@ Edit
 Probiert auch die **Werkzeugleiste** auf der linken Seite aus.
 
 📸 Screenshot:  
-![Screen9](./Screen9)
+![Screen9](media/Screen9.png)
 
 ---
 
 💬 **Bei Fragen kommt gerne auf uns zu!**
-Wenn du die Screenshots z. B. im Ordner assets/ speicherst, kannst du die Links so anpassen:
-
-markdown
-Copy
-Edit
-![Screen4](assets/Screen4.png)
-Sag Bescheid, wenn du’s für ein bestimmtes Tool (z. B. QGIS oder eine Webanwendung) anpassen willst.
-
 
 
 
