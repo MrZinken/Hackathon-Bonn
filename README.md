@@ -199,6 +199,10 @@ Probiert auch die **Werkzeugleiste** auf der linken Seite aus.
 
 💬 **Bei Fragen kommt gerne auf uns zu!**
 
+## Eure Lösungen
+
+
+[Brokkoli Ansatz](https://github.com/manukao/ki-und-schatten-hackathon-vibe-code-project)  
 
 
 
